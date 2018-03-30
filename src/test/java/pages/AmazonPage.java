@@ -21,6 +21,8 @@ public class AmazonPage {
 //	works for name OR id only. Also, it has to comply
 //	with variable naming protocols. it has to be unique
 //	too.
+	
+	
 
 	public void goToWebsite() {
 		driver.get("https://www.amazon.com");
@@ -44,11 +46,6 @@ public class AmazonPage {
 		return searchResultItems!=null 
 				&& searchResultItems.size()>0;
 	}
-	
-//	@FindBy (css="")
-//	public WebElement 
-
-	
 	
 	
 }
