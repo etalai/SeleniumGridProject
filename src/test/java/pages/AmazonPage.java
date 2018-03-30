@@ -47,5 +47,9 @@ public class AmazonPage {
 				&& searchResultItems.size()>0;
 	}
 	
-	
+	public void checkTheCheckbox(WebElement element) {
+		if(!element.isSelected()) {
+			element.click();
+		}
+	}
 }
