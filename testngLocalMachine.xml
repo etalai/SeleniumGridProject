@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Smoke" parallel="classes" thread-count="4">
+	<test name="SearchTests">
+    <classes>
+       <class name="com.seleniumGrid.WoodenSpoonSearch" />
+       <class name="com.seleniumGrid.WoodenSpoonSearchMac"/>
+    </classes>
+  </test>
+</suite>
